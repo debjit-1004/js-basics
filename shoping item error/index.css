@@ -1,0 +1,14 @@
+img {
+    margin-left: 25rem;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 5rem;
+    text-align: center;
+}
+
+button {
+    margin: 0rem 35rem;
+    font-size: 1rem;
+}

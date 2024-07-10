@@ -1,0 +1,142 @@
+console is availabl in all browsers
+
+variable ---- let varaiable = value
+
+if we write console.log(variable) before variable initialization then javascipt will return a reference error that cannot acess varible name before initialization
+simmilarly let v=5+4 returns 9 after console.log and for any mathematical operation
+variable adddiotn works
+writing console.log is not same as print as we need to write the console.log again if we change a bir of code that involves any applicatio with console.log or else console.log asjows the previous value that was issued :) actually it does ..you just need to save the code everytime unlike me (dumb moments :)-
+
+we can actually reassign a value to a varible let v= 3 
+v=5
+cosole.log(v) results in 5
+
+it has a increment operator ++
+
+for a function we write... function <function name>(){
+
+}
+
+
+a lot like python
+
+global variables and local variables like pyton
+
+strings work with single and double quotes
+string concatination works with variable that stores string too
+
+concatination of string and any othe data type results in the string winnng it 
+
+shorthand operators works
+
+** please check out node.textcontent from MDN website
+
+text content is a better way than innertext
+array.length
+
+array.push(variable or value)
+array.pop()
+
+for (let count =1; count<11; count+=1){
+    
+}
+
+
+return value is same like other prg languages
+eg;
+a=1
+b=2
+
+function greater(){
+    if (a>b){retun a
+    } else if (b>a){
+        return b
+    } else {return "equal"
+    }
+}
+
+value=greater() // calling the function
+
+
+functions no matter where is declared in a oprogram it can alwas be accesble from the top itself
+
+generate random nos by 
+let randomnumner = Math.random() not inclusive of 1
+
+Math.random() * 6 means 0 to 6 6 exclusive
+
+Math.floor()
+Math.ceil
+
+
+intro to objects
+composite data types
+key value pairs (kind of pythondictionary)
+let <varaiable>= {
+    <var1>=<data1>,
+    <var2>=<data2>
+    ....
+}
+
+
+let debjit={
+    deeya: text{
+        console.log("hello there")
+    }
+}
+
+debjit.deeya() calls the function text
+
+
+when we add a event listner and cosole oyut somehing then it goes to the chrome console and not internal console
+
+we can write let variable= or 
+we can write const variable = data both in js
+
+const can ba reassigned
+
+eg:
+const should be used whenevber possible like playername and like credits have to be reassigned so we write credits in let 
+
+cannelcase convention thay we are using in javascipt
+
+innerHTML is use if we want to acutally parse a html text instead of normal like 
+we have an unordered  list element and we want to add undefined number of list items inside so we can define it in 
+html but can modify in js so what we do is object_of_ul . innerHTML += list[i]
+
+innerhtml has a alternative
+
+
+remeber: DOM manipulation comes with a cost!!!!!  so is it better to manipulate the dom using innerhtml three times or just using the string amnd rendering it one time 
+
+templete strings
+` using this`
+
+use ${ any javascript variable that has a value can be used like this}
+
+template strings have a great usqage like
+`debjit
+here what about you`
+console.log ()
+
+it gives output in two lines
+
+we need json file to uploa a chrome extension
+JSON.stringify and JSON.parse methods help to turn arrays to strings and then also add items to arrays 
+
+truthy and falsy statements
+
+false values in js---
+
+false
+0
+""
+null // emptiness signalised by user
+undefined //emptiness signalised by javascript
+NaN
+
+
+
+innertext takes the css values and reflow of code so takes a lot of time and can be computationally expenxszive
+ and textcontent differernce noted in mdn docs 
+
